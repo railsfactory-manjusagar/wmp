@@ -42,7 +42,7 @@ class Spell_digit
           str = hash[number0]+"thousand"
           return str
           end
-      str = hash[number0]+"thousand"+" "+hash[number6]+"hundrend"+" "+hash[number8]+"ty"+" "+hash[number9]
+      str = hash[number0]+"thousand"+" "+hash[number6]+"hundrend"+" "+hash[number8]+" "+hash[number9]
       return str
   elsif number >10000 && number < 100000
          n = number % 1000
